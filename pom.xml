@@ -93,10 +93,13 @@
 	</dependencies>
 	
 	<distributionManagement>
-    <snapshotRepository>
-        <id>canarabank-maven-snapshot</id>
-        <url>http://13.201.50.226:8081/repository/canarabank-maven-snapshot/</url>
-    </snapshotRepository>
+  <snapshotRepository>
+    <id>canarabank-maven-snapshot</id> <!-- must match settings.xml -->
+    <url>http://13.201.50.226:8081/repository/canarabank-maven-snapshot/</url>
+  </snapshotRepository>
+		
+		
+		 
     <repository>
         <id>canarabank-maven-release</id>
         <url>http://13.201.50.226:8081/repository/canarabank-maven-release/</url>
