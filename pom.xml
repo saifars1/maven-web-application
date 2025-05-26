@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.234.48.84:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.47.114:9000/</sonar.host.url>
 		<sonar.login>squ_eb95d0a2ce04dd19753db8dcb882b6dae54d703e</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -96,14 +96,14 @@
 	<distributionManagement>
   <snapshotRepository>
     <id>canarabank-maven-snapshot</id> <!-- must match settings.xml -->
-    <url>http://65.2.183.222:8081/repository/canarabank-maven-snapshot/</url>
+    <url>http://172.31.36.230:8081/repository/canarabank-maven-snapshot/</url>
   </snapshotRepository>
 		
 		
 		 
     <repository>
         <id>canarabank-maven-release</id>
-        <url>http://65.2.183.222:8081/repository/canarabank-maven-release/</url>
+        <url>http://172.31.36.230:8081/repository/canarabank-maven-release/</url>
     </repository>
 </distributionManagement>
 	
